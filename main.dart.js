@@ -85261,22 +85261,22 @@ return new A.ML(new A.bv(null,t.am),A.b(["Piscina","Academia","Sal\xe3o de festa
 A.ML.prototype={
 aJ(){this.aV()},
 N(a5){var s,r,q,p,o,n,m,l,k,j,i,h,g,f,e,d,c=this,b=null,a=A.axN(B.ED,b,new A.ae_(c)),a0=c.f,a1=t.s,a2=t.fo,a3=a2.i("aB.E"),a4=t.N
-a0=A.nY(B.EF,A.a5(new A.aa(A.b(["Sobrado","Casa","Apartamento"],a1),new A.ae0(),a2),!0,a3),new A.ae1(c),a0,a4)
+a0=A.nY(B.EF,A.a5(new A.aa(A.b(["Sobrado","Casa","Apartamento","Lote","Sala","Galp\xe3o"],a1),new A.ae0(),a2),!0,a3),new A.ae1(c),a0,a4)
 s=A.axN(B.Ey,B.NV,new A.aec(c))
 r=c.w
 q=t.S
-p=J.xF(6,q)
-for(o=0;o<6;o=n){n=o+1
+p=J.xF(8,q)
+for(o=0;o<8;o=n){n=o+1
 p[o]=n}m=A.a_(p).i("aa<1,eZ<t>>")
 r=A.nY(B.Ex,A.a5(new A.aa(p,new A.aee(),m),!0,m.i("aB.E")),new A.aef(c),r,q)
 m=c.x
-p=J.xF(5,q)
-for(o=0;o<5;o=n){n=o+1
+p=J.xF(6,q)
+for(o=0;o<6;o=n){n=o+1
 p[o]=n}l=A.a_(p).i("aa<1,eZ<t>>")
 m=A.nY(B.EB,A.a5(new A.aa(p,new A.aeg(),l),!0,l.i("aB.E")),new A.aeh(c),m,q)
 l=c.y
-p=J.xF(4,q)
-for(o=0;o<4;++o)p[o]=o
+p=J.xF(6,q)
+for(o=0;o<6;++o)p[o]=o
 k=A.a_(p).i("aa<1,eZ<t>>")
 q=A.nY(B.Ez,A.a5(new A.aa(p,new A.aei(),k),!0,k.i("aB.E")),new A.aej(c),l,q)
 l=A.dq("Ano de Constru\xe7\xe3o: "+c.z,b,b,b,b,b,b)
@@ -85487,7 +85487,7 @@ p=A.io("https://api.openai.com/v1/chat/completions")
 o=t.N
 n=A.ar(["Authorization","Bearer "+a1,"Content-Type","application/json"],o,o)
 s=2
-return A.X(A.aPy(p,B.cT.SM(A.ar(["model","gpt-3.5-turbo","messages",A.b([A.ar(["role","user","content","                      Valor aluguel, e venda de um im\xf3vel de forma objetiva para tipo "+k+" no endere\xe7o "+j+" com as seguintes caracter\xedsticas:\n                      - \xc1rea Constru\xedda: "+A.j(i)+"m\xb2\n                      - N\xfamero de Quartos: "+h+"\n                      - N\xfamero de Banheiros: "+g+"\n                      - Vagas de Garagem: "+f+"\n                      - Ano de Constru\xe7\xe3o: "+e+"\n                      - Estado de Conserva\xe7\xe3o: "+d+"\n                      - Proximidade de Servi\xe7os: "+c+"\n                      - Mercado Local: "+b+"\n                      - Infraestrutura do Bairro: "+a+"\n                      - \xc1rea de Lazer: "+a0+"\n                      - Seguran\xe7a: "+l+"\n                    "],o,o)],t.m0),"max_tokens",150],o,t.K),null),n),$async$$1)
+return A.X(A.aPy(p,B.cT.SM(A.ar(["model","gpt-3.5-turbo","messages",A.b([A.ar(["role","user","content","                      Valor aluguel, e venda de um im\xf3vel de forma objetiva (Valor aluguel:???? e Valor venda:????) para tipo "+k+" no endere\xe7o "+j+" com as seguintes caracter\xedsticas:\n                      - \xc1rea Constru\xedda: "+A.j(i)+"m\xb2\n                      - N\xfamero de Quartos: "+h+"\n                      - N\xfamero de Banheiros: "+g+"\n                      - Vagas de Garagem: "+f+"\n                      - Ano de Constru\xe7\xe3o: "+e+"\n                      - Estado de Conserva\xe7\xe3o: "+d+"\n                      - Proximidade de Servi\xe7os: "+c+"\n                      - Mercado Local: "+b+"\n                      - Infraestrutura do Bairro: "+a+"\n                      - \xc1rea de Lazer: "+a0+"\n                      - Seguran\xe7a: "+l+"\n                    "],o,o)],t.m0),"max_tokens",150],o,t.K),null),n),$async$$1)
 case 2:m=a3
 l=q.b
 k=t.z
@@ -92363,7 +92363,7 @@ B.QK=new A.m(!0,B.n,null,"Roboto",B.R,null,null,null,null,null,null,null,null,nu
 B.S4=new A.dr(B.Rx,B.OG,B.PF,B.Qz,B.QM,B.O6,B.Pe,B.Oa,B.Qj,B.QZ,B.PP,B.R0,B.Rb,B.QA,B.QK)
 B.S5=new A.il("Valor im\xf3vel v4",null,null,null,null,null,null,null,null)
 B.yN=new A.il("OK",null,null,null,null,null,null,null,null)
-B.S8=new A.il("Resposta da API",null,null,null,null,null,null,null,null)
+B.S8=new A.il("Resposta",null,null,null,null,null,null,null,null)
 B.S9=new A.il("Enviar",null,null,null,null,null,null,null,null)
 B.VM=new A.afI(0,"system")
 B.JE=new A.i(0.05,0)
